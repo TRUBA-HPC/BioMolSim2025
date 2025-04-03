@@ -1,0 +1,1 @@
+This repository contains codes, materials, and resources for the "Exploring Biomolecular Modeling and Simulations" training. Organized by BioExcel, NCC Sweden, and NCC Türkiye in the context of the CASTIEL 2 Training Sprint Initiative, the training covers molecular modeling, simulation techniques, and practical applications in biomolecular research.
