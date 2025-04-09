@@ -1,0 +1,33 @@
+SLURM_NODELIST orfoz306
+NUMBER OF CORES 112
+number of CPUs=  112
+Loading modulefiles version 2021.11
+Loading itac version 2022.0
+
+Loading apps/gromacs/2024.1-oneapi2024
+  Loading requirement: comp/oneapi/2024-modules/compiler-rt32/latest
+    comp/oneapi/2024-modules/ifort32/2024.0.0
+    comp/oneapi/2024-modules/tbb/latest
+    comp/oneapi/2024-modules/compiler-rt/latest
+    comp/oneapi/2024-modules/mkl/2024.0 comp/oneapi/2024-modules/ifort/2024.0.0
+    comp/oneapi/2024-modules/debugger/2024.0.0
+    comp/oneapi/2024-modules/dpct/2024.0.0 comp/oneapi/2024-modules/dal/2024.0.0
+    comp/oneapi/2024-modules/tbb32/latest
+    comp/oneapi/2024-modules/intel_ipp_ia32/2021.10
+    comp/oneapi/2024-modules/dnnl/3.3.0 comp/oneapi/2024-modules/tbb/2021.11
+    comp/oneapi/2024-modules/dev-utilities/2024.0.0
+    comp/oneapi/2024-modules/mkl32/2024.0 comp/oneapi/2024-modules/ccl/2021.11.0
+    comp/oneapi/2024-modules/intel_ippcp_ia32/2021.9
+    comp/oneapi/2024-modules/compiler32/2024.0.0
+    comp/oneapi/2024-modules/compiler-rt/2024.0.0
+    comp/oneapi/2024-modules/inspector/2024.0
+    comp/oneapi/2024-modules/oclfpga/2024.0.0
+    comp/oneapi/2024-modules/mpi/2021.11
+    comp/oneapi/2024-modules/compiler-rt32/2024.0.0
+    comp/oneapi/2024-modules/advisor/2024.0
+    comp/oneapi/2024-modules/intel_ipp_intel64/2021.10
+    comp/oneapi/2024-modules/intel_ippcp_intel64/2021.9
+    comp/oneapi/2024-modules/tbb32/2021.11 comp/oneapi/2024-modules/dpl/2022.3
+    comp/oneapi/2024-modules/compiler/2024.0.0
+    comp/oneapi/2024-modules/itac/2022.0 comp/oneapi/2024-modules/vtune/2024.0
+    comp/oneapi/2024
