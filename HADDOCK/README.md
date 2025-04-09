@@ -28,7 +28,7 @@ on the antibody (i.e., the most basic knowledge) and epitope information identif
 ## Software and data setup
 
 In order to follow this tutorial you will need to work on a Linux or MacOSX
-system. We will also make use of [**PyMOL**][link-pymol]{:target="_blank"} (freely available for
+system. We will also make use of PyMOL (freely available for
 most operating systems) in order to visualize the input and output data. We will
 provide you links to download the various required software and data.
 
@@ -38,61 +38,47 @@ to facilitate their use in HADDOCK and to allow comparison with the known refere
 structure of the complex. 
 
 If you are running this tutorial on your own resources _download and unzip the following_
-[zip archive](https://surfdrive.surf.nl/files/index.php/s/R7VHGQM9nx8QuQn){:target="_blank"}
-_and note the location of the extracted PDB files in your system_. 
+[zip archive](https://surfdrive.surf.nl/files/index.php/s/R7VHGQM9nx8QuQn)
+_and note the location of the extracted PDB files in your system_ (refer for details to the online tutorial listed above). 
 
-_Note_ The zip archive for the EuroCC Istanbul workshop is present in this repo but does not include the pre-calculated runs.
+_Note_ The tutorial data for the EuroCC Istanbul workshop are present in this repo under `HADDOCK3-antibody-antigen` but do not include the pre-calculated runs.
 
-<a class="prompt prompt-cmd">
-wget https://surfdrive.surf.nl/files/index.php/s/R7VHGQM9nx8QuQn/download -O HADDOCK3-antibody-antigen.zip<br>
-unzip HADDOCK3-antibody-antigen.zip
-</a>
-
-
-Unziping the file will create the `HADDOCK3-antibody-antigen` directory which should contain the following directories and files:
+the `HADDOCK3-antibody-antigen` directory contains the following directories and files:
 
 * `pdbs`: a directory containing the pre-processed PDB files
 * `restraints`: a directory containing the interface information and the corresponding restraint files for HADDOCK3
-* `runs`: a directory containing pre-calculated results
+* `runs`: a directory containing pre-calculated results (not on GitHub though)
 * `scripts`: a directory containing various scripts used in this tutorial
 * `workflows`: a directory containing configuration file examples for HADDOCK3
 
 In case of a workshop of course, HADDOCK3 will usually have been installed on the system you will be using.
 
-It this is not the case, you will have to install it yourself. To obtain and install HADDOCK3, navigate to [its repository][haddock-repo], fill the
-registration form, and then follow the instructions under the **Local setup (on your own)** section below.
+It this is not the case, you will have to install it yourself (see Useful links above).
 
 
 ## EuroCC HPC workshop, Istanbul April 2025
 
 We will be making use of the TRUBA computational resources for this tutorial. 
 The software and data required for this tutorial have been pre-installed.
-Please connect to the system using your credentials either via ssh connection or from a web browser using OnDemand:
-
-[TRUBA onDemand interface](https://172.16.6.20/){:target="_blank"}
+Please connect to the system using your credentials either via ssh connection or from a web browser using OnDemand.
 
 If using OnDemand, open then a terminal session using the `_arf Shell Access` menu.
 
 In order to run the tutorial, go into you scratch directory, then unzip the required data:
 
-<a class="prompt prompt-cmd">
-cd /arf/scratch/\<my\-username\><br>
-unzip ~egitim/HADDOCK/HADDOCK3-antibody-antigen.zip<br>
-cd HADDOCK3-antibody-antigen
-</a>
+`cd /arf/scratch/<my-username>`
+
+`unzip ~egitim/HADDOCK/HADDOCK3-antibody-antigen.zip`
+
+`cd HADDOCK3-antibody-antigen`
 
 This will create the `HADDOCK3-antibody-antigen` directory with all necessary data and scripts and job examples ready for submission to the batch system.
 
 HADDOCK3 has been pre-installed. To activate the HADDOCK3 environment type:
 
-
-<a class="prompt prompt-cmd">
-source ~egitim/HADDOCK/haddock3/.venv/bin/activate
-</a>
+`source ~egitim/HADDOCK/haddock3/.venv/bin/activate`
 
 You can then test that `haddock3` is indeed accessible with:
 
-<a class="prompt prompt-cmd">
-haddock3 -h
-</a>
+`haddock3 -h`
 
